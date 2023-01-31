@@ -1,0 +1,13 @@
+body {
+    background-color:darkblue;
+}
+
+section {
+    border-color: black;
+    height: 200px;
+    width: 300px;
+}
+
+a[href$=".footer-link"]::after {
+    content: "⬆️";
+}
