@@ -16,15 +16,17 @@ header {
 section {
     background-color: antiquewhite;
     border-color: black;
-    padding: 50px;
+    /* padding: 50px; */
     align-items: center;
 }
 
 .portfolio {
     height: 600px;
     width: 40%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color:mediumpurple;
+    color:azure
 }
 
 .about {
