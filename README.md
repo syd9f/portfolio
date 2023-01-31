@@ -28,3 +28,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Usage
 
 ## Credits
+CSS Reset file : https://meyerweb.com/eric/tools/css/reset/

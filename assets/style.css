@@ -1,11 +1,19 @@
+* {
+    font-family: "Georgia";
+}
+
 body {
     background-color:darkblue;
 }
 
+header {
+    background-color: azure;
+}
+
 section {
+    background-color: antiquewhite;
     border-color: black;
     height: 200px;
-    width: 300px;
 }
 
 a[href$=".footer-link"]::after {
