@@ -5,12 +5,15 @@
 body {
     background-color:darkblue;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
     background-color: azure;
-    display:inline-flex;
+    display:flex;
     padding:20%;
+    align-items: center;
 }
 
 section {
