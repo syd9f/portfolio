@@ -31,15 +31,18 @@ h2 {
 }
 
 nav ul {
-    /* display:inline-flex; */
-    justify-items: space-between;
+    height: 100%;
+    width: 100%;
+    flex: 70%;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 nav ul li {
-    /* height: 100%;
-    width: 100%; */
-    display: inline;
+    display: inline-flex;
     border: 1px solid black;
+    justify-content: space-between;
+    padding: 60px;
 }
 
 nav a {
@@ -51,6 +54,8 @@ section {
     border-color: black;
     padding: 50px;
     align-items: center;
+    flex: 70%;
+    flex-wrap:wrap;
 }
 
 .portfolio {
@@ -60,6 +65,12 @@ section {
     margin-bottom: 25px;
     background-color:mediumpurple;
     color:azure
+}
+
+.app {
+    border: 1px solid black;
+    padding: 5%;
+    margin: 5px;
 }
 
 .about {
@@ -84,8 +95,6 @@ footer {
     display: flex;
     height: 100px;
 }
-
-
 /* 
 
 a[href$=".footer-link"]::after {
