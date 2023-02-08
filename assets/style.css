@@ -1,3 +1,7 @@
+:root{
+    --dark: rgba(118, 118, 200, 0.868);
+}
+
 * {
     font-family: "Georgia";
 }
@@ -19,12 +23,12 @@ header {
 
 h1 {
     font-size: 80px;
-    color: darkblue;
+    color: antiquewhite;
 }
 
 h1 span {
     font-style:italic;
-    color:antiquewhite;
+    color:rgba(118, 118, 200, 0.868);
 }
 
 h2 {
@@ -87,7 +91,7 @@ section {
     width: 100%;
     margin-top: 25px;
     margin-bottom: 25px;
-    background-color:mediumpurple;
+    background-color: var(--dark);
     color:azure
 }
 
@@ -114,7 +118,7 @@ section {
 }
 
 footer {
-    background-color:azure;
+    background-color: black;
     align-items: center;
     display: flex;
     height: 100px;
