@@ -12,8 +12,31 @@ body {
 header {
     background-color: azure;
     display:flex;
-    padding:20%;
+    padding:10%;
     align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h1 span {
+    font-style:italic;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+nav ul {
+    justify-items: space-between;
+    display:inline-flex;
+    /* uncomment to make appear in row */
+}
+
+nav a {
+    font-size: 30px;
 }
 
 section {
@@ -55,26 +78,9 @@ footer {
     height: 100px;
 }
 
-h1 {
-    font-size: 80px;
-}
 
-h1 span {
-    font-style:italic;
-}
 
-nav ul {
-    justify-items:right;
-    /* display:inline-flex; */
-    /* uncomment to make appear in row */
-}
 
-nav ul li {
-    font-size: 30px;
-}
-h2 {
-    font-size: 60px;
-}
 a[href$=".footer-link"]::after {
     content: "⬆️";
 }
