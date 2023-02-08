@@ -12,27 +12,34 @@ body {
 header {
     background-color: azure;
     display:flex;
-    padding:10%;
+    padding: 5%;
     align-items: center;
     justify-content: space-between;
 }
 
-h1 {
+/* h1 {
     font-size: 80px;
 }
 
 h1 span {
     font-style:italic;
-}
+} */
 
 h2 {
     font-size: 60px;
+    border: 1px solid black;
 }
 
 nav ul {
+    /* display:inline-flex; */
     justify-items: space-between;
-    display:inline-flex;
-    /* uncomment to make appear in row */
+}
+
+nav ul li {
+    /* height: 100%;
+    width: 100%; */
+    display: inline;
+    border: 1px solid black;
 }
 
 nav a {
@@ -42,13 +49,13 @@ nav a {
 section {
     background-color: antiquewhite;
     border-color: black;
-    /* padding: 50px; */
+    padding: 50px;
     align-items: center;
 }
 
 .portfolio {
     height: 600px;
-    width: 40%;
+    width: 100%;
     margin-top: 25px;
     margin-bottom: 25px;
     background-color:mediumpurple;
@@ -56,14 +63,14 @@ section {
 }
 
 .about {
-    height: 300px;
-    width: 30%;
+    height: 200px;
+    width: 100%;
     margin-top: 15px;
 }
 
 .contact {
     height: 200px;
-    width: 30%;
+    width: 100%;
     margin-bottom: 15px;
 }
 
@@ -79,8 +86,8 @@ footer {
 }
 
 
-
+/* 
 
 a[href$=".footer-link"]::after {
     content: "⬆️";
-}
+} */
