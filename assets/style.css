@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: azure;
+    background-color: black;
     display:flex;
     padding: 5%;
     align-items: center;
@@ -47,6 +47,18 @@ nav ul li {
 
 nav a {
     font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: antiquewhite;
+    text-decoration: underline;
 }
 
 section {
