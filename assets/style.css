@@ -113,7 +113,8 @@ section {
 .app {
     border: 1px solid black;
     padding: 5%;
-    margin: 5px;
+    margin: 10px;
+    justify-content: center;
 }
 
 .about {
@@ -152,12 +153,16 @@ footer {
     width: 100px;
     
 }
-
+.app-image {
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
 .first-image {
     width: 350px;
     height: 350px;
     overflow: hidden;
-    margin-left: 100px;
+    margin-left: 200px;
     display: flex;
     
 }
@@ -165,3 +170,19 @@ footer {
 a[href$=".footer-link"]::after {
     content: "⬆️";
 } */
+
+@media screen and (max-width: 768px) {
+    header {
+        background-color: white;
+    }
+    a, a:visited {
+        color: var(--dark);
+    }
+    footer {
+        background-color: white;
+    }
+    .contact ul li {
+        background-color: white;
+    }
+
+}
