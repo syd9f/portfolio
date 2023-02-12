@@ -44,6 +44,10 @@ h3 {
 
 p {
     color: black;
+    font-size: 30px;
+    flex-wrap: wrap;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 nav ul {
@@ -92,7 +96,8 @@ section {
     margin-top: 25px;
     margin-bottom: 25px;
     background-color: var(--dark);
-    color:azure
+    color:azure;
+    flex: 70%;
 }
 
 .app {
@@ -122,6 +127,13 @@ footer {
     align-items: center;
     display: flex;
     height: 100px;
+}
+
+img #logo {
+    border: 1px solid white;
+    display: flex;
+    position: relative;
+    width: 100px;
 }
 /* 
 
