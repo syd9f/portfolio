@@ -168,10 +168,10 @@ footer {
     display: flex;
     
 }
-/* 
-a[href$=".footer-link"]::after {
-    content: "⬆️";
-} */
+
+.footer-link::after {
+    content: " \02B06";
+}
 
 @media screen and (max-width: 768px) {
     header {
