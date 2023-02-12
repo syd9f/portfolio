@@ -40,7 +40,7 @@ h2 {
 }
 
 h3 {
-    color: black;
+    color: var(--dark);
     font-size: 50px;
 
 }
@@ -167,6 +167,14 @@ footer {
     overflow: hidden;
     display: flex;
     
+}
+
+#portfolio p {
+    border: 2px dotted var(--dark);
+}
+
+#portfolio img {
+    border: 10px double white;
 }
 
 .footer-link::after {
