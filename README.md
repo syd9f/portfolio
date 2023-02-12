@@ -29,11 +29,11 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 When visiting site on desktop, user should see:
 
-![Webpage Screenshot](./Assets/images/portfolio-desktop.png)
+![Webpage Screenshot](assets/images/portfolio-desktop.png)
 
 If the screen size is less than 768px, user should see:
 
-![Webpage Screenshot](./Assets/images/portfolio-small.png)
+![Webpage Screenshot](assets/images/portfolio-small.png)
 
 The links in the nav bar will guide user to different page sections, including About, Portfolio, Contact. 
 
