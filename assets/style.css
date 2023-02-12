@@ -100,6 +100,7 @@ section {
     align-items: center;
     flex: 70%;
     flex-wrap:wrap;
+    margin-right: 20px;
 }
 
 .portfolio {
@@ -124,6 +125,10 @@ section {
     height: 200px;
     width: 100%;
     margin-top: 15px;
+}
+
+.about p {
+    border: 2px dotted var(--dark);
 }
 
 .contact {
