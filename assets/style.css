@@ -13,12 +13,13 @@ body {
     flex-direction: column;
 }
 
-header {
+header, footer {
     background-color: black;
     display:flex;
     padding: 5%;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 h1 {
@@ -47,7 +48,7 @@ p {
     font-size: 30px;
     flex-wrap: wrap;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    line-height: 50px;
 }
 
 nav ul {
@@ -58,14 +59,21 @@ nav ul {
     flex-direction: row;
 }
 
-nav ul li {
+nav ul li,
+.contact ul li {
     display: inline-flex;
     border: 1px solid black;
     justify-content: space-between;
     padding: 60px;
 }
 
-nav a {
+.contact ul li {
+    background-color: var(--dark);
+    padding: 10px;
+    margin: 10px;
+}
+
+a {
     font-size: 30px;
     color: white;
     text-decoration: none;
@@ -127,16 +135,17 @@ footer {
     align-items: center;
     display: flex;
     height: 100px;
+    width: 100%;
 }
 
-img #logo {
+.logo {
     border: 1px solid white;
-    display: flex;
     position: relative;
     width: 100px;
+    
 }
-/* 
 
+/* 
 a[href$=".footer-link"]::after {
     content: "⬆️";
 } */
