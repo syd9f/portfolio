@@ -27,6 +27,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Usage
 
+https://syd9f.github.io/portfolio/
+
 When visiting site on desktop, user should see:
 
 ![Webpage Screenshot](assets/images/portfolio-desktop.png)
