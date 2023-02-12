@@ -27,5 +27,17 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Usage
 
+When visiting site on desktop, user should see:
+
+![Webpage Screenshot](./Assets/images/portfolio-desktop.png)
+
+If the screen size is less than 768px, user should see:
+
+![Webpage Screenshot](./Assets/images/portfolio-small.png)
+
+The links in the nav bar will guide user to different page sections, including About, Portfolio, Contact. 
+
+There is a footer with a link to the top of the page. 
+
 ## Credits
 CSS Reset file : https://meyerweb.com/eric/tools/css/reset/
