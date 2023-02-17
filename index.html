@@ -4,20 +4,20 @@
 <head>
     <title>Sydnie Farrell</title>
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="./assets/reset.css"/>
-    <link rel="stylesheet" type="text/css" href="./assets/style.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
 </head>
 
 <body>
 
-<!-- Main Heading / Navigation Bar -->
+    <!-- Main Heading / Navigation Bar -->
 
-    <header id="heading" class="heading">
-        <h1>Sydnie <span>Farrell</span></h1>
+    <header id="heading">
+        <h1>Sydnie <span>Farrell</span></h1>    
         <!-- navigation bar -->
         <nav>
             <ul>
-                <li><a href="#about">About</a></li> 
+                <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><img class="logo" src="assets/images/logo.png" alt="Logo: Computer screen with letters SF"></li>
@@ -25,55 +25,73 @@
         </nav>
     </header>
 
-<!-- About Me -->
+    <main>
 
-    <section id="about" class="about">
-        <h2>About</h2>
-        <!-- Bio -->
-        <p>My name is Sydnie Farrell and I am currently a student at Columbia Engineering Coding Bootcamp, learning Full Stack Web Development. This page is for displaying the projects that I have worked on.</p>
-    </section>
+        <!-- About Me -->
 
-<!-- Portfolio Links -->
-
-    <section id="portfolio" class="portfolio">
-        <h2>Portfolio</h2>
-        <!-- Prework Study Guide -->
-        <section class="app first">
-            <a href="https://syd9f.github.io/prework-study-guide/" target="_blank">
-                <img class="first-image" src="assets/images/prework-study-guide.png" alt="preview of webpage"/></a>
-            <h3>Bootcamp Prework Study Guide</h3>
-            <p>This webpage serves as a study guide for bootcamp students, and has sections for notes on HTML, CSS, JavaScript, and Git. This was my first assignment for Bootcamp.</p>
+        <section id="about" class="about">
+            <h2>About</h2>
+            <!-- Bio -->
+            <p>My name is Sydnie Farrell and I am currently a student at Columbia Engineering Coding Bootcamp, learning
+                Full Stack Web Development. This page is for displaying the projects that I have worked on.</p>
         </section>
-        <!-- App 2 -->
-        <section class="app">
-            <img class="app-image" src="assets/images/logo.png" alt="Logo: computer screen displaying SF"/>
-            <h3>Application 2 Name</h3>
-            <p>Coming Soon!</p>
+
+        <!-- Portfolio Links -->
+
+        <section id="portfolio" class="portfolio">
+            <h2>Portfolio</h2>
+            <!-- Prework Study Guide -->
+            <div id="apps">
+                <section class="app">
+                    <a href="https://syd9f.github.io/prework-study-guide/" target="_blank">
+                        <img class="first-image" src="assets/images/prework-study-guide.png"
+                            alt="preview of webpage" /></a>
+                    <div>
+                        <h3>Bootcamp Prework Study Guide</h3>
+                        <p>This webpage serves as a study guide for bootcamp students, and has sections for notes on
+                            HTML,
+                            CSS,
+                            JavaScript, and Git. This was my first assignment for Bootcamp.</p>
+                    </div>
+                </section>
+                <!-- App 2 -->
+                <section class="app">
+                    <img src="assets/images/logo.png" alt="Logo: computer screen displaying SF" />
+                    <div>
+                        <h3>Application 2 Name</h3>
+                        <p>Coming Soon!</p>
+                    </div>
+                </section>
+                <!-- App 3 -->
+                <section class="app">
+                    <img src="assets/images/logo.png" alt="Logo: computer screen displaying SF" />
+                    <div>
+                        <h3>Application 3 Name</h3>
+                        <p>Coming Soon!</p>
+                    </div>
+                </section>
+            </div>
+
         </section>
-        <!-- App 3 -->
-        <section class="app">
-            <img class="app-image" src="assets/images/logo.png" alt="Logo: computer screen displaying SF"/>
-            <h3>Application 3 Name</h3>
-            <p>Coming Soon!</p>
+
+        <!-- Contact Info -->
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <!-- Put links to Github, LinkedIn, Email -->
+            <ul>
+                <li><a href="mailto:sydniefarrell@gmail.com">Email</a></li>
+                <li><a href="https://github.com/syd9f/" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/sydnie-farrell-5479a4136/" target="_blank">LinkedIn</a></li>
+            </ul>
         </section>
-    </section>
+    </main>
 
-<!-- Contact Info -->
-
-    <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <!-- Put links to Github, LinkedIn, Email -->
-        <ul>
-            <li><a href="mailto:sydniefarrell@gmail.com">Email</a></li>
-            <li><a href="https://github.com/syd9f/" target="_blank">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/sydnie-farrell-5479a4136/" target="_blank">LinkedIn</a></li>
-        </ul>
-    </section>
-
-<!-- Footer -->
-<footer>
-<a href="#heading" class="footer-link">Back to top</a></p>
-</footer>
+    <!-- Footer -->
+    <footer>
+        <a href="#heading" class="footer-link">Back to top</a></p>
+    </footer>
 
 </body>
+
 </html>
