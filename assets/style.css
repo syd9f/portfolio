@@ -1,5 +1,5 @@
 :root{
-    --dark: rgba(118, 118, 200, 0.868);
+    --purple: rgba(118, 118, 200, 0.868);
 }
 
 * {
@@ -33,7 +33,7 @@ h1 {
 
 h1 span {
     font-style:italic;
-    color:rgba(118, 118, 200, 0.868);
+    color:var(--purple);
 }
 
 h2 {
@@ -58,27 +58,25 @@ p {
 }
 
 nav ul {
-    height: 100%;
-    width: 100%;
-    flex: 70%;
-    flex-wrap: wrap;
-    flex-direction: row;
+    border: 2px double white;
 }
 
-nav ul li,
-.contact ul li {
+#contact ul {
+    border: 1px dotted red;
+}
+
+li {
     display: inline-flex;
     border: 1px solid black;
-    justify-content: space-between;
+    justify-content: center;
     padding: 60px;
+    position: relative;
     width: 25%;
     height: 25%;
 }
 
-.contact ul li {
-    background-color: var(--dark);
-    padding: 10px;
-    margin: 10px;
+#contact li {
+    background-color: var(--purple);
 }
 
 a {
@@ -104,7 +102,7 @@ section {
 }
 
 .portfolio {
-    background-color: var(--dark);
+    background-color: var(--purple);
     color:azure;
 }
 
@@ -153,24 +151,13 @@ section {
 }
 
 .about p {
-    border: 2px dotted var(--dark);
-}
-
-.contact {
-    height: 200px;
-    margin-bottom: 15px;
-}
-
-.contact ul {
-    display:inline-flex;
+    border: 2px dotted var(--purple);
 }
 
 footer {
     background-color: black;
     display: flex;
-    align-items: center;
-    height: 100px;
-    width: 100%;
+    justify-items: center;
 }
 
 .footer-link {
@@ -195,7 +182,7 @@ footer {
 }
 
 #portfolio p {
-    border: 2px dotted var(--dark);
+    border: 2px dotted var(--purple);
 }
 
 #portfolio img {
@@ -208,16 +195,12 @@ footer {
 
 @media screen and (max-width: 768px) {
     header {
-        background-color: white;
+        background-color: darkblue;
     }
     a, a:visited {
-        color: var(--dark);
+        color: antiquewhite);
     }
     footer {
-        background-color: white;
+        background-color: darkblue;
     }
-    .contact ul li {
-        background-color: white;
-    }
-
 }
