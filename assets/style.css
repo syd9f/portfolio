@@ -151,29 +151,25 @@ section {
     position: relative;
 }
 
-.app:first-child {
-    width: 100%;
-}
-
 .app div {
-    position: absolute;
+    position: relative;
     left: 10px;
     bottom: 5px;
     background: black;
     opacity: .85;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     border-radius: 8px;
 }
 
 .app div h3 {
     color: white;
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 .app div p {
     color: white;
-    font-size: 1rem;
+    font-size: 2rem;
     line-height: 1.5;
 }
 
@@ -201,14 +197,6 @@ footer {
     border: 1px solid white;
     position: relative;
     width: 100px;
-    
-}
-
-.first-image {
-    width: 350px;
-    height: 350px;
-    overflow: hidden;
-    display: flex;
     
 }
 
@@ -248,5 +236,13 @@ footer {
         width: 25%;
         justify-content: left;
         padding: 20px;
+    }
+
+    .app {
+        border: 1px solid black;
+        justify-content: center;
+        width: 50%;
+        margin: 5px 0;
+        position: relative;
     }
 }
