@@ -1,5 +1,6 @@
 :root{
     --purple: rgba(118, 118, 200, 0.868);
+    --softblue: rgba(92, 145, 243, 0.868);
 }
 
 * {
@@ -8,10 +9,9 @@
 }
 
 body {
-    background-color:darkblue;
+    background-color: var(--softblue);
     margin: 0;
 }
-
 
 main {
     width: 80%;
@@ -57,8 +57,28 @@ p {
     line-height: 50px;
 }
 
-nav ul {
-    border: 2px double white;
+header em {
+    color: white;
+}
+
+.title {
+    display: inline-flex;
+    border: 2px solid black;
+    justify-content: center;
+    padding: 60px;
+    position: relative;
+    width: 75%;
+    height: 25%;
+}
+
+.title-name {
+    display: inline-flex;
+    border: 2px solid black;
+    justify-content: center;
+    padding: 60px;
+    position: relative;
+    width: 75%;
+    height: 75%;
 }
 
 #contact ul {
@@ -67,12 +87,18 @@ nav ul {
 
 li {
     display: inline-flex;
-    border: 1px solid black;
+    border: 2px solid black;
     justify-content: center;
     padding: 60px;
     position: relative;
     width: 25%;
     height: 25%;
+    background-color: gray;
+    color: white;
+}
+
+nav ul {
+    width: 25%;
 }
 
 #contact li {
@@ -99,6 +125,11 @@ section {
     background-color: antiquewhite;
     border-color: black;
     padding: 50px;
+}
+
+.nav-title {
+    background-color: black;
+    width: 40%;
 }
 
 .portfolio {
@@ -195,12 +226,27 @@ footer {
 
 @media screen and (max-width: 768px) {
     header {
-        background-color: darkblue;
+        background-color: var(--softblue);
     }
     a, a:visited {
-        color: antiquewhite);
+        color: antiquewhite;
     }
     footer {
-        background-color: darkblue;
+        background-color: var(--softblue);
+    }
+    .title {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        justify-content: left;
+        padding: 20px;
+    }
+    
+    .title-name {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        justify-content: left;
+        padding: 20px;
     }
 }
