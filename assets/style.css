@@ -5,8 +5,8 @@
 
 * {
     font-family: "Georgia";
-    border: 2px dotted red;
 }
+
 
 body {
     background-color: var(--softblue);
@@ -85,7 +85,7 @@ header em {
     border: 1px dotted red;
 }
 
-li {
+nav button {
     display: inline-flex;
     border: 2px solid black;
     justify-content: center;
@@ -97,7 +97,7 @@ li {
     color: white;
 }
 
-nav ul {
+nav {
     width: 25%;
 }
 
