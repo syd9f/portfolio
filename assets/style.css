@@ -205,7 +205,13 @@ footer {
     width: 100px;
     
 }
+#headshot {
+    width: 55%;
+}
 
+.image-container {
+    width: 100%;
+}
 #portfolio p {
     border: 2px dotted var(--purple);
 }
