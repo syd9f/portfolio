@@ -130,6 +130,7 @@ section {
 .nav-title {
     background-color: black;
     width: 40%;
+    justify-content: center;
 }
 
 .portfolio {
@@ -236,7 +237,7 @@ footer {
         flex-direction: column;
         width: 25%;
         justify-content: left;
-        padding: 20px;
+        padding: 10px;
     }
 
     .app {
@@ -245,5 +246,9 @@ footer {
         width: 50%;
         margin: 5px 0;
         position: relative;
+    }
+
+    h1 {
+        font-size: 55px;
     }
 }
