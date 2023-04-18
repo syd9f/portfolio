@@ -147,9 +147,13 @@ section {
 .app {
     border: 1px solid black;
     justify-content: center;
-    width: 38%;
+    width: 34%;
     margin: 5px 0;
     position: relative;
+}
+
+.description {
+    background-color: black;
 }
 
 .app div {
@@ -171,7 +175,7 @@ section {
 
 .app div p {
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.5;
 }
 
@@ -243,7 +247,7 @@ footer {
     .app {
         border: 1px solid black;
         justify-content: center;
-        width: 50%;
+        width: 95%;
         margin: 5px 0;
         position: relative;
     }
