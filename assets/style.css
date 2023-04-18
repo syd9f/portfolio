@@ -63,26 +63,24 @@ header em {
 
 .title {
     display: inline-flex;
-    border: 2px solid black;
     justify-content: center;
     padding: 60px;
     position: relative;
     width: 50%;
-    height: 25%;
+    height: 33%;
 }
 
 .title-name {
     display: inline-flex;
-    border: 2px solid black;
     justify-content: center;
     padding: 60px;
     position: relative;
     width: 50%;
-    height: 75%;
+    height: 33%;
 }
 
 #contact ul {
-    border: 1px dotted red;
+    border: 1px dotted black;
 }
 
 nav button {
@@ -129,7 +127,9 @@ section {
 
 .nav-title {
     background-color: black;
+    background-image: url('./images/headshot.png');
     width: 40%;
+    height: 75%;
     justify-content: center;
 }
 
@@ -141,7 +141,7 @@ section {
 #apps {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .app {
@@ -158,8 +158,6 @@ section {
 
 .app div {
     position: relative;
-    left: 10px;
-    bottom: 5px;
     background: black;
     opacity: .85;
     width: 100%;
@@ -210,8 +208,10 @@ footer {
 }
 
 .image-container {
-    width: 100%;
+    width: 50%;
+    height: 33%;
 }
+
 #portfolio p {
     border: 2px dotted var(--purple);
 }
