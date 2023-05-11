@@ -26,6 +26,14 @@ header {
     justify-content: space-between;
 }
 
+footer {
+    background-color: black;
+    display: flex;
+    justify-items: center;
+}
+
+/* Headings h1 -> h4 */
+
 h1 {
     font-size: 80px;
     color: antiquewhite;
@@ -55,6 +63,24 @@ h4 {
     
 }
 
+/* Page Elements */
+
+nav {
+    width: 25%;
+}
+
+nav button {
+    display: inline-flex;
+    border: 2px solid black;
+    justify-content: center;
+    padding: 60px;
+    position: relative;
+    width: 25%;
+    height: 25%;
+    background-color: darkblue;
+    color: white;
+}
+
 p {
     color: black;
     font-size: 30px;
@@ -66,6 +92,40 @@ p {
 header em {
     color: white;
 }
+
+
+section {
+    background-color: antiquewhite;
+    border-color: black;
+    padding: 50px;
+}
+
+footer div {
+    padding-left: 4%;
+    padding-right: 4%;
+    border:2px solid var(--purple);
+}
+
+/* Links */
+
+a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: antiquewhite;
+    text-decoration: underline;
+}
+
+
+/* Classes */
 
 .title {
     display: inline-flex;
@@ -85,52 +145,6 @@ header em {
     height: 33%;
 }
 
-#contact ul {
-    border: 1px dotted black;
-}
-
-nav button {
-    display: inline-flex;
-    border: 2px solid black;
-    justify-content: center;
-    padding: 60px;
-    position: relative;
-    width: 25%;
-    height: 25%;
-    background-color: darkblue;
-    color: white;
-}
-
-nav {
-    width: 25%;
-}
-
-#contact li {
-    background-color: var(--purple);
-}
-
-a {
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-}
-
-a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    color: antiquewhite;
-    text-decoration: underline;
-}
-
-section {
-    background-color: antiquewhite;
-    border-color: black;
-    padding: 50px;
-}
-
 .nav-title {
     background-color: black;
     background-image: url('./images/headshot.png');
@@ -145,10 +159,8 @@ section {
     color:azure;
 }
 
-#apps {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.description {
+    background-color: black;
 }
 
 .app {
@@ -157,10 +169,6 @@ section {
     width: 34%;
     margin: 5px 0;
     position: relative;
-}
-
-.description {
-    background-color: black;
 }
 
 .app div {
@@ -192,25 +200,9 @@ section {
     border: 2px dotted var(--purple);
 }
 
-footer {
-    background-color: black;
-    display: flex;
-    justify-items: center;
+.footer-link::after {
+    content: " \02B06";
 }
-
-footer div {
-    padding-left: 4%;
-    padding-right: 4%;
-    border:2px solid var(--purple);
-}
-
-/* footer button {
-    color: red;
-}
-
-.foot-link {
-    color: red;
-} */
 
 .nav-link {
     padding: 50px;
@@ -224,13 +216,30 @@ footer div {
     width: 100px;
     
 }
-#headshot {
-    width: 55%;
-}
 
 .image-container {
     width: 50%;
     height: 33%;
+}
+
+/* ID's */
+
+#contact ul {
+    border: 1px dotted black;
+}
+
+#contact li {
+    background-color: var(--purple);
+}
+
+#apps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#headshot {
+    width: 55%;
 }
 
 #portfolio p {
@@ -241,9 +250,9 @@ footer div {
     border: 10px double white;
 }
 
-.footer-link::after {
-    content: " \02B06";
-}
+/* ******************************************* */
+/* Change screen when screen size is < 768px */
+/* ******************************************* */
 
 @media screen and (max-width: 768px) {
     header {
