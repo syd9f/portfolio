@@ -14,8 +14,9 @@ body {
 }
 
 main {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    background-color: black;
 }
 
 header {
@@ -66,14 +67,14 @@ h4 {
 /* Page Elements */
 
 nav {
-    width: 25%;
+    width: 60%;
 }
 
 nav button {
     display: inline-flex;
-    border: 2px solid black;
+    border: 2px double white;
     justify-content: center;
-    padding: 60px;
+    padding: 40px;
     position: relative;
     width: 25%;
     height: 25%;
@@ -82,7 +83,7 @@ nav button {
 }
 
 p {
-    color: black;
+    color: white;
     font-size: 30px;
     flex-wrap: wrap;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -95,9 +96,10 @@ header em {
 
 
 section {
-    background-color: antiquewhite;
+    background-color: black;
     border-color: black;
     padding: 50px;
+    border-top: 10px dotted blue;
 }
 
 footer div {
@@ -147,10 +149,9 @@ a:hover {
 
 .nav-title {
     background-color: black;
-    background-image: url('./images/headshot.png');
     /* background-size: cover; */
-    width: 40%;
-    height: 75%;
+    width: 20%;
+    height: 30%;
     justify-content: center;
 }
 
@@ -169,6 +170,7 @@ a:hover {
     width: 34%;
     margin: 5px 0;
     position: relative;
+    background-color: black;
 }
 
 .app div {
@@ -195,20 +197,31 @@ a:hover {
 .app img {
     width: 100%;
 }
+.about-column {
+    justify-content: center;
+    display: flex;
+}
+.about-column img {
+    border: 2px solid white;
+    width: 15%;
+    margin: 5%;
+    display: block;
+}
+
+.about-column div {
+    width: 50%;
+}
 
 .about p {
     border: 2px dotted var(--purple);
+    
 }
 
-.footer-link::after {
-    content: " \02B06";
-}
-
-.nav-link {
+/* .nav-link {
     padding: 50px;
     justify-items: center;
 
-}
+} */
 
 .logo {
     border: 1px solid white;
@@ -228,7 +241,7 @@ a:hover {
     border: 1px dotted black;
 }
 
-#contact li {
+#contact {
     background-color: var(--purple);
 }
 
@@ -286,6 +299,13 @@ a:hover {
         width: 95%;
         margin: 5px 0;
         position: relative;
+    }
+
+    .about-column img {
+        border: 2px solid white;
+        width: 25%;
+        margin: 5%;
+        display: block;
     }
 
     h1 {
