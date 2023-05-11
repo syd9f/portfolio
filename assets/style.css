@@ -68,7 +68,7 @@ h4 {
 /* Page Elements */
 
 nav {
-    width: 60%;
+    width: 100%;
 }
 
 nav button {
@@ -163,7 +163,7 @@ a:hover {
     justify-content: center;
     padding: 60px;
     position: relative;
-    width: 50%;
+    width: 20%;
     height: 33%;
 }
 
@@ -180,7 +180,7 @@ a:hover {
     background-color: black;
     /* background-size: cover; */
     width: 20%;
-    height: 30%;
+    height: 25%;
     justify-content: center;
 }
 
