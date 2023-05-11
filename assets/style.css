@@ -85,10 +85,11 @@ nav button {
 
 p {
     color: white;
-    font-size: 30px;
+    font-size: 1.7em;
     flex-wrap: wrap;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 50px;
+    padding: 25px;
 }
 
 header em {
@@ -231,7 +232,7 @@ a:hover {
 }
 .about-column img {
     border: 2px solid white;
-    width: 15%;
+    width: 30%;
     margin: 5%;
     display: block;
 }
