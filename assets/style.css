@@ -49,6 +49,12 @@ h3 {
 
 }
 
+h4 {
+    color: white;
+    font-size: 2em;
+    
+}
+
 p {
     color: black;
     font-size: 30px;
@@ -91,7 +97,7 @@ nav button {
     position: relative;
     width: 25%;
     height: 25%;
-    background-color: gray;
+    background-color: darkblue;
     color: white;
 }
 
@@ -104,7 +110,7 @@ nav {
 }
 
 a {
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     text-decoration: none;
 }
@@ -192,7 +198,21 @@ footer {
     justify-items: center;
 }
 
-.footer-link {
+footer div {
+    padding-left: 4%;
+    padding-right: 4%;
+    border:2px solid var(--purple);
+}
+
+/* footer button {
+    color: red;
+}
+
+.foot-link {
+    color: red;
+} */
+
+.nav-link {
     padding: 50px;
     justify-items: center;
 
