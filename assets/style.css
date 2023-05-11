@@ -270,6 +270,8 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    overflow: scroll;
+    height: 600px;
 }
 
 #headshot {
